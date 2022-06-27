@@ -1,0 +1,15 @@
+﻿@{
+    ViewData["Title"] = "Contact Us";
+}
+<h1 style="color:red ">@ViewData["Title"]</h1>
+
+<div>
+    Enter Your Name : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="txtName" required /><br /><br />
+    Reason to Contact Us : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="txtContactUs" required /><br /><br />
+    Your Contact No: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="txtContactNo" required /><br /><br />
+    Type of Query : &nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="Query" value="m" />Application Related&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="Query" value="f" />Login Related&nbsp;&nbsp;&nbsp;
+    <input type="radio" name="Query" value="o" />Others<br /><br />
+    Description: &nbsp;&nbsp;<textarea rows="4" cols="40"></textarea><br />
+    <input type="submit" />
+</div>
