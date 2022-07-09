@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("button").click(function () {
+                $.get("http://localhost:5246/api/Product_Info", function (data, status) {
+                    console.log(data);
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+
+    <button>Get Product Info</button>
+
+</body>
+</html>
